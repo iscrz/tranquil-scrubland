@@ -13,7 +13,7 @@ drop.get("/") { request in
 }
 
 drop.get("/name") { request in
-    return "Hello World! 2"
+    return "Hello World! 4"
 }
 
 drop.resource("posts", PostController())
